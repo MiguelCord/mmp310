@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans|Raleway';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+#title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    color: white;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header {
+    width: 100%;
+}
+
+h2, p {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text-body {
+    max-width: 720px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gif {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 640px;
+}
+    
