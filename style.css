@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Oswald';
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    width: 100%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+nav {
+    background-color: #ff1a1a;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    width: 100%;
+    max-width: 160px;
+    padding-top: 10px;
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.jumbotron{
+    background-image: url(images/stay-weird.gif); /* Taken from http://stayw3ird.tumblr.com/ */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 450px;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    color: #66ffff;
+}
+
+.behind-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    color: #ff1a1a;
+    margin-top: -82px;
+    margin-left: 5px;
+}
+.img-circle:hover {
+    border-style: solid;
+    border-width: 6px;
+    border-color: dimgray;
+    
+}
+
+#footer {
+    margin-bottom: 20px;
+    margin-right: 200px;
+    background-color:#66ffff;    
+    height: 30px;
+    width: 95%;
+    opacity: 0.9;
+}
+
+#footer-red {
+    margin-top: -30px;
+    margin-left: 20px;
+    background-color:#ff1a1a;    
+    position: relative;
+    height: 30px;
+    z-index: -999;
+    width: 95%;
+}
+
+.footer-text {
+    color: white;
+    font-size: 1.5em;
+}
+
+.bounce:hover {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+    -webkit-animation-duration: 3s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes bounce {
+    from {position: absolute;}
+    to {margin-top: -20px;}
+}
+
+
+/*******************WEEK 1**************/
+
+.famous-img {
+    max-width: 720px;
+    width: 100;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
