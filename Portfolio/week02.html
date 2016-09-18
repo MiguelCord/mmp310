@@ -1,0 +1,156 @@
+<!doctype html>
+<html> 
+    <head>
+        <!----support of foreigh character--->
+        <meta charset="utf-8">
+        <!--IE Compatibility setting. It ensures IE uses the latest rendering engine-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--get physical width of the mobile device-->
+        <meta name="viewport" content="width=device, initial-scale=1">
+        <title>MMP 310 - Portfolio</title>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <!--link the latest minified bootstrap stylesheet-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!--link the latest minified jQuery framework, necessary for using Bootstrap's JS plugings-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous">
+        </script>
+        <!--link latest compiled and minified JavaScript -->
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    
+       <nav class="navbar navbar-light bg-faded"> <!----Begginning of navbar--->
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>            
+                        </button>
+                        <!-- Brand -->
+                        <a class="navbar-brand" href="index.html">Home</a>
+                    </div>
+                    <!-- Links -->
+                    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                       <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <a class="nav-link" href="https://github.com/MiguelCord">Personal Git</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--container-fluid-->
+        </nav>  <!----End of navbar--->
+    <body>
+        <div class="jumbotron glitch"> <!----Big (Stay Weird) Banner---> </div>
+        <div class="container-fluid">
+            <div class="row row-centered text-center">
+                <h2 class="title text-center">Assignment 2</h2>
+                <h2 class="behind-title text-center">Assignment 2</h2>
+                <div class="row-featurette week02">
+                    <h2>Please fill this form as properly as you can.</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">First Name</label>
+                            <input  class="form-control" id="nameInput" placeholder="Input Name"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="inputName">Last Name</label>
+                            <input  class="form-control" id="lastNameInput" placeholder="Input Last Name"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="age-group">Age</label>
+                            <select class="from-control" id="age-select">
+                                <option>15-19</option>
+                                <option>20-24</option>
+                                <option>25-39</option>
+                                <option>40-44</option>
+                                <option>45-49</option>
+                                <option>50+</option>
+                            </select>
+                        </div>
+                        <fieldset class="form-group">
+                            <label>Do you like video games</label>                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                Yes
+                              </label>
+                            </div>
+                            <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                No
+                              </label>
+                            </div>
+                            <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                                Not sure
+                              </label>
+                            </div>
+                      </fieldset>
+                         <div class="form-group">
+                            <label for="exampleTextarea">Why?</label>
+                            <textarea class="form-control" id="videoGames" rows="3" placeholder="Please state a reason"></textarea>
+                        </div>
+                        <div class="form-check">
+                            <label>What kind of games do you like (assuming you liek them).</label><br />
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Action
+                            </label>
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Drama
+                            </label> <br />
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Mistery
+                            </label>
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Puzzles
+                            </label> <br />
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Horror
+                            </label>
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Sports
+                            </label> <br />
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Fantasy
+                            </label>
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Adventure
+                            </label> <br />
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Role-playing
+                            </label>
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Strategy
+                            </label> <br />
+                          </div>
+                          <button type="submit" onclick="submitForm()" class="btn btn-primary btn-week02">Submit</button>
+                        <h3 id="thanks"></h3>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <div id="footer">
+        <div class="container">
+            <p class="footer-text text-center">Website developed by Miguel Cordero.</p>
+        </div>
+    </div>    
+    <div id="footer-red"></div>
+</html>

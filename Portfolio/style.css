@@ -25,9 +25,9 @@ nav {
 }
 
 .navbar-brand {
-    width: 100%;
-    max-width: 160px;
-    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2em;
 }
 
 .nav-link {
@@ -115,4 +115,19 @@ nav {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+/*****************WEEK 2***************/
+
+.week02 {
+    max-width: 720px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-week02 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
