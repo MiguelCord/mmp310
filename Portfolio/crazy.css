@@ -1,0 +1,43 @@
+.jumImg {
+    background-size: contain;
+    height: 420px;
+    width: 100%;
+    
+    
+}
+
+.ridiculous {
+    color: white;
+    margin-top: -210px;
+}
+
+.ridiculous2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.video { 
+    display: none;
+}
+
+.pushmenot {
+    margin-top: 150px;
+}
+
+#link {
+    margin-top: 50px;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#fffcfc;
+}
+
+.footer-text {
+    color: #f91d75;
+    margin-top: 5px;
+}
